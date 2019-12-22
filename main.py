@@ -1,7 +1,11 @@
 import generate as gen
 import random
+import sys
 
-CARD_NUMBER = 10
+try:
+    CARD_NUMBER = int(sys.argv[1])
+except (ValueError, IndexError) as e:
+    CARD_NUMBER = 10
 
 for x in range(1, CARD_NUMBER + 1):
 

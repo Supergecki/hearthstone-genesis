@@ -266,7 +266,7 @@ class MinionAbility(Ability):
         {'value': 0.50, 'text': 'At the beginning of your turn, <effect>.'},
         {'value': 0.50, 'text': 'At the end of your turn, gain <ability>.'},
         {'value': 0.50, 'text': 'At the end of each turn, <effect>.'},
-        {'value': 0.20, 'text': 'Has <ability_aura> while damaged.'},
+        {'value': 0.20, 'text': 'While damaged, this has "<ability_aura>".'},
         {'value': 0.20, 'text': 'Has <ability> while <condition>.'},
         {'value': 0.30, 'text': 'Your <minion_type>s are <minion_type>s.'},
         {'value': 0.30, 'text': 'Your <minion_type>s have <stackable_effect>.'},
