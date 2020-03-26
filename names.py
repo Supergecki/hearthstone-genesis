@@ -19,7 +19,7 @@ name_prefaces = list(set([
     'Grimestreet', 'Speaking', 'Screaming', 'Crying', 'Elemental', 'Beast', 'Totem', 'Ruby', 'Emerald', 'Burning',
     'Horrible', 'Horror', 'Terrible', 'Intelligent', 'Allmighty', 'Taunting', 'Lightning', 'Thunder', 'Dumb', 'Idiot',
     'Zombie', 'Fresh', 'New', "Light's", "Life's", 'Mirror of', 'Mark of', 'Lunar', 'Flesh', 'Rune', 'Commanding',
-    'Awakened', 'Running', 'Toxic', 'Flying', 'Sealed', 'Natural',
+    'Awakened', 'Running', 'Toxic', 'Flying', 'Sealed', 'Natural', 'Shielded',
 
     #The Witchwood
     'Forest', 'Woods', 'Whispering', 'Bewitched', 'Hunting', 'Dire', 'Terror', 'Hidden', 'Cathedral', 'Ghostly', 'Ghost',
@@ -54,6 +54,21 @@ name_prefaces = list(set([
 
     #Hall of Fame
     'Gloom', 'Mind', 'Glitter', 'Murkspark', "Captain's", 'Coldlight', 'Old', 'Azure', 'Elite', 'Molten',
+
+    #Descent of Dragons
+    'Dwarven', 'Phase', 'Diving', 'Primordial', 'Rolling', 'Righteous', 'Sand', 'Sanctuary', 'Sky', 'Timeless', 'Amber', "Galakrond's",
+    "Lazul's", 'Mind', 'Fate', 'Grave', 'Chrono', 'Time', 'Infinite', 'Bloodsail', "Dragon's", 'Seal', 'Necrium', 'Umbral', 'Candle', "Storm's", 'Surging',
+    'Squall', 'Corrupt', 'Dark', 'Dragonblight', 'Fiendish', 'Veiled', 'Crazed', 'Abyssal', 'Sky', 'Ramming', 'Depth', 'Hot', 'Evasive', 'Parachute',
+    'Tasty', 'Bad', 'Blowtorch', 'Goboglide', 'Devoted', 'Dragonmaw', 'Hoard', 'Wing', "Zul'Drak", 'Big', 'Old', 'Chromatic', 'Plate', 'Tentacled',
+    'Camouflaged', 'Utgarde', 'Twin',
+
+    #Ashes of Outland
+    'Crimson', 'Sigil', 'Immolation', 'Ashtongue', 'Imprisoned', 'Skull', 'Coilfang', 'Pit', 'Ironbark', 'Glowfly', 'Marsh', 'Hell', 'Pack',
+    "Scavenger's", 'Augmented', "Mok'nathal", 'Scrap', 'Nagrand', 'Apexis', "Incanter's", 'Netherwind', 'Deep', 'Aldor', 'Hand', 'Underlight',
+    'Reliquary', 'Sethekk', 'Psyche', 'Soul', 'Blackjack', 'Ambush', 'Dirty', 'Greyheart', 'Bogstrok', 'Serpentshrine', 'Totemic', 'Vivid',
+    'Boggspine', 'Torrent', 'Dark', 'Nightshade', 'The Dark', 'Hand of', 'Enhanced', 'Sword', 'Bonechewer', 'Warmaul', 'Bloodboil', 'Ethereal',
+    'Infectious', 'Rocket', 'Soulbound', "Mo'arg", 'Rustsworn', 'Blistering', 'Overconfident', 'Terrorguard', 'Burrowing', 'Disguised',
+    'Ruststeed', 'Waste', 'Scavenging', 'Supreme', 'Scrapyard',
 ]))
 
 #print(sorted(name_prefaces))
@@ -112,6 +127,13 @@ names = list(set([
     'Maiden', 'Dummy', 'Sheep', 'Warper', 'Machine', 'Stomper', 'Recombobulator', 'Infantry', 'Experimenter', 'Sapper',
     'Hobgoblin', 'Illuminator', 'Exorcist', 'Brute', 'Tank', 'Mystic', 'Tallstrider', 'Yeti', 'Shredder', 'Healbot',
     'Lobber', 'Dog', 'Sky Golem',
+
+    #Ashes of Outland
+    'Sigil Runner', 'Felfin', 'Netherwalker', 'Battlelord', 'Antaen', 'Warlord', 'Satyr', 'Boar', 'Felmaw', 'Porcupine', 'Lion',
+    'Scryer', 'Observer', 'Sungill', 'Attendant', 'Truthseeker', 'Homunculus', 'Veilweaver', 'Overseer', 'Stunner', 'Sage', 'Vagrant',
+    'Clacker', 'Rumbler', 'Scrap Imp', 'Imp', 'Glare', 'Matron', 'Dreadlord', "Gan'arg", 'Challenger', 'Augmerchant', 'Sporeling',
+    'Brawler', 'Vilefiend', 'Artificer', 'Rot', 'Orc', 'Escapee', 'Scorpid', 'Wanderer', 'Navigator', 'Sky Stalker', 'Shivarra',
+    'Vanguard',
 ]))
 
 actions = list(set([
@@ -123,7 +145,7 @@ actions = list(set([
     'Roar', 'Growl', 'Twist', 'Bolt', 'Shot', 'Trap', 'Cast', 'Spell', 'Book', 'Scroll', 'Portal',
 
     #unordered actions
-    'Raid', 'Raiding', 'Unleash',
+    'Raid', 'Raiding', 'Unleash', 'Reinforcement', 'Rituals', 'Awakening',
 
     #Whispers of the Old Gods
     'Rage', 'Infest', 'Flame', 'Destruction', 'Tome', 'Healing', 'Strength', 'Strike',
@@ -146,4 +168,13 @@ actions = list(set([
 
     #League of Explorers
     'Idol', 'Hat', 'Torch', 'Trial',
+
+    #Descent of Dragons
+    'Embiggen', 'Secure', 'Breath', 'Clear', 'Reinforcements', 'Hammer', 'Allies', 'Fireball', 'Cause', 'Rune', 'Rip', 'Pack',
+    'Rain', 'Skies', 'Rites', 'Chopper',
+
+    #Ashes of Outland
+    'Aura', 'Metamorphosis', 'Warglaives', 'Fortunes', 'Beam', 'Germination', 'Growth', 'Tactics', 'Ingenuity', 'Slam', 'Evocation',
+    'Flow', 'Blast', 'Wisdom', 'Justice', 'Hope', 'Split', 'Bamboozle', 'Tricks', 'Reflection', 'Spores', 'Knuckles', 'Council', 'Felbolt',
+    'Cache', 'Bladestorm', 'Bulwark', 
 ]))
